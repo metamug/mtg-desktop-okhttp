@@ -11,7 +11,7 @@ Technologies used to build this application.
 
 The content header is set to application/xml to retrieve xml.
 
-`
+```JAVA
 		Request request = new Request.Builder().url(url1 + "?q=4")
 				.addHeader("accept", "application/xml").build();
 		Response response = client.newCall(request).execute();
@@ -19,7 +19,7 @@ The content header is set to application/xml to retrieve xml.
 		Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
 		SearchData data = (SearchData) jaxbUnmarshaller.unmarshal(response.body().byteStream());
 
-`
+```
 
 These are the endpoints used.
 

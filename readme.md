@@ -1,8 +1,13 @@
 ## mtg-desktop-okhttp
 
 This project is implemented using Metamug REST API.
+Checklist API performs CRUD operations.
 
-Checklist API performs CRUD operations using OK-HTTP.
+Technologies used to build this application.
+
+- Metamug API
+- OK-HTTP
+- JAXB
 
 These are the endpoints used.
 
